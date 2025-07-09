@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 const Rootpage = () => {
   return (
     <div>
+
       <div>
         <div>
           <Header />
