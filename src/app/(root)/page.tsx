@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import About from './components/About'
 
 const Rootpage = () => {
   return (
@@ -9,8 +10,11 @@ const Rootpage = () => {
         <div>
           <Header />
         </div>
-        <div className=''>
+        <div>
           <Hero />
+        </div>
+        <div>
+          <About />
         </div>
       </div>
     </div>
