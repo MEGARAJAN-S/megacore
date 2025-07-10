@@ -5,7 +5,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className='flex bg-background/20 backdrop-blur-lg w-full h-16'>
+        <div className='fixed flex bg-background/20 backdrop-blur-lg w-full h-16'>
             <div className='w-full px-20 py-4 border-b'>
                 <div>
                     <div className='flex justify-between items-center'>
