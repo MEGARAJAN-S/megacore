@@ -23,7 +23,7 @@ const Hero = () => {
               <ArrowRightIcon className="ml-1 size-4 self-center transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
             </div>
           </div>
-          <div className='flex items-center justify-center pt-10'>
+          <div className='flex items-center justify-center pt-5'>
             <div className='text-2xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl'>
               Elevate your gym to the next level using <br />
               <SparklesText className='text-2xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl'>MegaCore's</SparklesText>{" "}
@@ -31,13 +31,13 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <div className='flex flex-col items-center justify-center pt-7 text-2xl'>
+            <div className='flex flex-col items-center justify-center pt-10 text-md'>
               <h3>Not just a software, a complete gym transformation</h3>
               <h3>MegaCore powers every step of gym's success</h3>
             </div>
           </div>
           <div>
-            <div className='flex items-center justify-center pt-20'>
+            <div className='flex items-center justify-center pt-10'>
               <div className='flex flex-row gap-2'>
                 <Button>
                   Get Started for Free
@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <div className='flex justify-center items-center pt-20 pb-40'>
+            <div className='flex justify-center items-center pt-10 pb-40'>
               <div>
                 <NeonGradientCard className='z-[-1]'>
                     <Image
