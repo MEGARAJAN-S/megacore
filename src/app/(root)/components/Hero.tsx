@@ -9,7 +9,7 @@ import { Meteors } from '@/modules/meteors'
 
 const Hero = () => {
   return (
-    <div>
+    <div className='h-svh'>
       <div>
         <div className='absolute h-full w-full overflow-hidden'>
           <Meteors />
