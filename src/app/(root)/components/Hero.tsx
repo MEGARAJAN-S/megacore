@@ -48,16 +48,14 @@ const Hero = () => {
           </div>
           <div>
             <div className='flex justify-center items-center pt-10 pb-40'>
-              <div>
-                <NeonGradientCard className='z-[-1]'>
-                    <Image
-                      src="/HeroImage.png"
-                      alt="Hero Image"
-                      width={800}
-                      height={800}
-                      className="md:w-[650px] md:h-[650px] object-cover sm:w-[300px] sm:h-[300px]"
-                    />
-                </NeonGradientCard>
+              <div className='z-[-1]'>
+                <Image
+                  src="/GymImage3.jpg"
+                  alt="Gym Image"
+                  width={500}
+                  height={500}
+                  className="lg:w-[1400px] lg:h-[400px] md:w-full md:h-full object-cover sm:w-[300px] sm:h-[300px]"
+                />
               </div>
             </div>
           </div>
